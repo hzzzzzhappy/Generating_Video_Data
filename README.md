@@ -26,17 +26,14 @@ python process_somethingv2.py
 You can check data list ```somethingv2/*.txt```
 
 ### Human3.6M
-I provided two datasets, both processed and unprocessed.
+I provided processed datasets.
 
-Unprocessed
 ```bash
-cd human36m/human36m_unprocessed
+cd human36m
 python build_clip_dataset.py
 python make_list.py
 ```
-You can check data list ```human36m/human36m_unprocessed/*.txt```
-
-or you can directly check the processed data in ```human36m/human36m_processed```
+You can check data list ```human36m/*.txt```
 
 ### YouTubeDriving
 ```bash
